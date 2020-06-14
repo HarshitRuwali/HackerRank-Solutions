@@ -1,0 +1,26 @@
+def minion_game(string):
+    # your code goes here
+    #s = input().strip()
+    s_length = len(s)
+    vowel_list = ['A','E','I','O','U']
+    stuart_point = 0
+    kevin_point = 0
+
+    for i in range(s_length):
+
+        if s[i] in vowel_list:
+            kevin_point += s_length - i
+        else:
+            stuart_point += s_length - i
+        
+    if stuart_point == kevin_point:
+        print('Draw')
+
+    elif kevin_point > stuart_point:
+        print('Kevin',kevin_point)
+
+    else:
+        print('Stuart',stuart_point)
+    #return minion_game
+    
+if __name__ == '__main__':
