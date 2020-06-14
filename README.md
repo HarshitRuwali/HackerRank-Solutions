@@ -1,7 +1,7 @@
 # HackerRank Solutions
 HackerRank solutions to various domains like Problem Solving, C, C++, Python.
 
-### Click below to view my portfolio website
+### Click below to view my HackerRank profile.
 
 <p align="center"> 
   <kbd>
